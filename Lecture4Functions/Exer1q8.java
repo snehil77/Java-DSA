@@ -15,11 +15,12 @@ power(x,n);
 
     public static void power(int x,int n)
     {
+        int result=1;
             for(int i=1;i<=n;i++)
             {
-                x=x*n;
+                result=result*x;
             }
-            System.err.println(x);
+            System.err.println(result);
     }
     
 }
