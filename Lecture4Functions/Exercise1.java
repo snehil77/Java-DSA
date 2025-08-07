@@ -18,9 +18,9 @@ public class Exercise1 {
 
     // ***q2-> write a function to print the sum of all odd numbers from 1 to n.
 
-    System.out.println("Enter any number");
-    int n=sc.nextInt();
-    sum(n);
+    // System.out.println("Enter any number");
+    // int n=sc.nextInt();
+    // sum(n);
 
 
 
@@ -41,13 +41,13 @@ public class Exercise1 {
     // **2 
     public static void sum(int n)
     {
-       int sum=0;
+       int total=0;
         for(int i=1;i<=n;i++)
         {
             if(i%2!=0)
             {
                  
-                 sum=sum+i;
+                 total=total+i;
 
             }
 
@@ -58,7 +58,7 @@ public class Exercise1 {
 
         }
 
-        System.out.println(sum);
+        System.out.println(total);
          
 
     }
